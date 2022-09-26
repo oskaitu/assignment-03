@@ -1,0 +1,1 @@
+sudo docker run --name ass3 -e POSTGRES_USER=psd -e POSTGRES_PASSWORD=1234 -e POSTGRES_DB=TEST -p 6521:5432 -t -it --rm postgres
