@@ -34,7 +34,7 @@ public sealed class TagRepositoryTests : IDisposable
 
 
     [Fact]
-    public void read_CallMethodWithTestDb_GetCollectionOfAllTestPersons()
+    public void read_CallMethodWithTestDb_GetCollectionOfAllTestTags()
     {
         // Given
 
