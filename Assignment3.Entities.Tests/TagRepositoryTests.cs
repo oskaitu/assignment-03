@@ -1,3 +1,6 @@
+using Microsoft.Data.Sqlite;
+using Xunit;
+
 namespace Assignment3.Entities.Tests;
 
 public sealed class TagRepositoryTests : IDisposable

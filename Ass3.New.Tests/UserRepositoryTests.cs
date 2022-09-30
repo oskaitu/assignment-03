@@ -1,6 +1,6 @@
-namespace Assignment3.Entities.Tests;
+using Microsoft.Data.Sqlite;
 
-
+namespace Ass3.New.Tests;
 
 public sealed class UserRepositoryTests : IDisposable
 {

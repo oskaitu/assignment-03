@@ -1,6 +1,9 @@
 using System.Collections.ObjectModel;
+using System.Linq;
+using Microsoft.Data.Sqlite;
 
-namespace Assignment3.Entities.Tests;
+namespace Ass3.New.Tests;
+
 
 public sealed class TaskRepositoryTests : IDisposable
 {

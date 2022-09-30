@@ -1,3 +1,5 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace Assignment3.Entities;
 
 public sealed class KanbanContext : DbContext

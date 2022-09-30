@@ -16,7 +16,7 @@ public class User
     [StringLength(50), Required]
     public string Email { get; set; }
 
-    public ICollection<Task> tasks { get; set;}
+    public virtual ICollection<Task> tasks { get; set; }
 
 
 
